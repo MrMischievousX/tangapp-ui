@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "646796588266e245017ebbed_Logo-TANGGapp-white-p-500.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
