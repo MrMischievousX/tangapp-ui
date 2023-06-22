@@ -30,7 +30,7 @@ const PhoneInput = ({number, memChangeNumber}: Props) => {
       onChangeText={e => memChangeNumber(e)}
       value={number}
       keyboardType="numeric"
-      maxLength={10}
+      maxLength={16}
       style={styles.numberInput}
     />
   );

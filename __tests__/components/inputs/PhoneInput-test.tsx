@@ -43,13 +43,13 @@ describe('Testing PhoneInput Component', () => {
     expect(props.memChangeNumber).toBeCalledWith('12345678');
   });
 
-  it('Should have input value of max length 10', () => {
+  it('Should have input value of max length 16', () => {
     const number = '123456789012';
     const root = renderer.create(
       <PhoneInput {...props} number={number} />,
     ).root;
 
     const input = root.findByProps({testID: 'phoneInput'}).props;
-    expect(input.maxLength).toEqual(10);
+    expect(input.maxLength).toEqual(16);
   });
 });
